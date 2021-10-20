@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Games\102\Study\homeworks\project\src\hw5\Systems\CanvasSystem.cpp">
+      <Filter>hw5\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Games\102\Study\homeworks\project\src\hw5\main.cpp">
+      <Filter>hw5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw5\Components\details\CanvasData_AutoRefl.inl">
+      <Filter>hw5\Components\details</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw5\Components\CanvasData.h">
+      <Filter>hw5\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw5\Systems\CanvasSystem.h">
+      <Filter>hw5\Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Games\102\Study\homeworks\project\build\CMakeFiles\84d1a26674dccbbf9db099fd75837915\CanvasData_AutoRefl.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Games\102\Study\homeworks\project\src\hw5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\vs\UGM.natvis" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0B67AA4C-A018-3569-8593-9C7A369A6538}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5">
+      <UniqueIdentifier>{657C9D45-FD0A-3CCB-91BC-13561C33DC52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5\Components">
+      <UniqueIdentifier>{FD84C0D9-96AD-3DE4-8518-1E06EA2B908B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5\Components\details">
+      <UniqueIdentifier>{DDEDC92A-CCD0-3315-9945-68FA26B175C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="hw5\Systems">
+      <UniqueIdentifier>{237D2711-5038-33F7-AB00-A283467E79B0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

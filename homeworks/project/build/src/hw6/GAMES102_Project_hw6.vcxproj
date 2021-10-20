@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A4E867E7-E752-3147-80EA-800C6BF68EFD}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>win32</Platform>
+    <ProjectName>GAMES102_Project_hw6</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:/Games/102/Study/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Games\102\Study\homeworks\project\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">GAMES102_Project_hw6.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">GAMES102_Project_hw6d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:/Games/102/Study/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Games\102\Study\homeworks\project\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">GAMES102_Project_hw6.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">GAMES102_Project_hw6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:/Games/102/Study/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Games\102\Study\homeworks\project\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">GAMES102_Project_hw6.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">GAMES102_Project_hw6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <LocalDebuggerWorkingDirectory Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:/Games/102/Study/homeworks/project/bin</LocalDebuggerWorkingDirectory>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Games\102\Study\homeworks\project\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">GAMES102_Project_hw6.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">GAMES102_Project_hw6</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\utopia-src\lib\Utopia_App_Editord.lib;..\..\_deps\utopia-src\lib\Utopia_App_DX12Appd.lib;..\..\_deps\utopia-src\lib\Utopia_Assetd.lib;..\..\_deps\utopia-src\lib\Utopia__deps_crossguidd.lib;..\..\_deps\utopia-src\lib\Utopia__deps_tinyobjloaderd.lib;..\..\_deps\utopia-src\lib\Utopia_ScriptSystemd.lib;..\..\_deps\ulua-src\lib\luad.lib;..\..\_deps\utopia-src\lib\Utopia_Renderd.lib;..\..\_deps\utopia-src\lib\Utopia_Cored.lib;..\..\_deps\udx12-src\lib\UDX12_cored.lib;..\..\_deps\ufg-src\lib\UFG_cored.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;..\..\_deps\uecs-src\lib\UECS_cored.lib;..\..\_deps\ugraphviz-src\lib\UGraphviz_cored.lib;..\..\_deps\utopia-src\lib\Utopia__deps_imguid.lib;..\..\_deps\utopia-src\lib\Utopia__deps_spdlogd.lib;..\..\_deps\uantlr-src\lib\UANTLR_runtimed.lib;..\..\_deps\ucontainer-src\lib\UContainer_cored.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Games/102/Study/homeworks/project/lib/GAMES102_Project_hw6d.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Games/102/Study/homeworks/project/bin/GAMES102_Project_hw6d.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\utopia-src\lib\Utopia_App_Editor.lib;..\..\_deps\utopia-src\lib\Utopia_App_DX12App.lib;..\..\_deps\utopia-src\lib\Utopia_Asset.lib;..\..\_deps\utopia-src\lib\Utopia__deps_crossguid.lib;..\..\_deps\utopia-src\lib\Utopia__deps_tinyobjloader.lib;..\..\_deps\utopia-src\lib\Utopia_ScriptSystem.lib;..\..\_deps\ulua-src\lib\lua.lib;..\..\_deps\utopia-src\lib\Utopia_Render.lib;..\..\_deps\utopia-src\lib\Utopia_Core.lib;..\..\_deps\udx12-src\lib\UDX12_core.lib;..\..\_deps\ufg-src\lib\UFG_core.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;..\..\_deps\uecs-src\lib\UECS_core.lib;..\..\_deps\ugraphviz-src\lib\UGraphviz_core.lib;..\..\_deps\utopia-src\lib\Utopia__deps_imgui.lib;..\..\_deps\utopia-src\lib\Utopia__deps_spdlog.lib;..\..\_deps\uantlr-src\lib\UANTLR_runtime.lib;..\..\_deps\ucontainer-src\lib\UContainer_core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Games/102/Study/homeworks/project/lib/GAMES102_Project_hw6.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Games/102/Study/homeworks/project/bin/GAMES102_Project_hw6.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\utopia-src\lib\MinSizeRel\Utopia_App_Editor.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia_App_DX12App.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia_Asset.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia__deps_crossguid.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia__deps_tinyobjloader.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia_ScriptSystem.lib;..\..\_deps\ulua-src\lib\MinSizeRel\lua.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia_Render.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia_Core.lib;..\..\_deps\udx12-src\lib\MinSizeRel\UDX12_core.lib;..\..\_deps\ufg-src\lib\MinSizeRel\UFG_core.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;..\..\_deps\uecs-src\lib\MinSizeRel\UECS_core.lib;..\..\_deps\ugraphviz-src\lib\MinSizeRel\UGraphviz_core.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia__deps_imgui.lib;..\..\_deps\utopia-src\lib\MinSizeRel\Utopia__deps_spdlog.lib;..\..\_deps\uantlr-src\lib\MinSizeRel\UANTLR_runtime.lib;..\..\_deps\ucontainer-src\lib\MinSizeRel\UContainer_core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Games/102/Study/homeworks/project/lib/MinSizeRel/GAMES102_Project_hw6.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Games/102/Study/homeworks/project/bin/MinSizeRel/GAMES102_Project_hw6.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5030</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;RAPIDJSON_HAS_STDSTRING;_CRT_SECURE_NO_WARNINGS;UBPA_USREFL_NOT_USE_NAMEOF;UNICODE;_UNICODE;NOMINMAX;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include;E:\Games\102\Study\homeworks\project\build\_deps\urapidjson-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uluapp-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\usrefl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ulua-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utemplate-src\include;E:\Games\102\Study\homeworks\project\build\_deps\nameof-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ustl-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udx12-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ufg-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-src\include;E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\include;E:\Games\102\Study\homeworks\project\build\_deps\udp-src\include;E:\Games\102\Study\homeworks\project\build\_deps\uecs-src\include;E:\Games\102\Study\homeworks\project\build\_deps\utopia-src\include\_deps;E:\Games\102\Study\homeworks\project\build\_deps\uhemesh-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia_App_Editor.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia_App_DX12App.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia_Asset.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia__deps_crossguid.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia__deps_tinyobjloader.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia_ScriptSystem.lib;..\..\_deps\ulua-src\lib\RelWithDebInfo\lua.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia_Render.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia_Core.lib;..\..\_deps\udx12-src\lib\RelWithDebInfo\UDX12_core.lib;..\..\_deps\ufg-src\lib\RelWithDebInfo\UFG_core.lib;d3dcompiler.lib;D3D12.lib;dxgi.lib;dxguid.lib;..\..\_deps\uecs-src\lib\RelWithDebInfo\UECS_core.lib;..\..\_deps\ugraphviz-src\lib\RelWithDebInfo\UGraphviz_core.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia__deps_imgui.lib;..\..\_deps\utopia-src\lib\RelWithDebInfo\Utopia__deps_spdlog.lib;..\..\_deps\uantlr-src\lib\RelWithDebInfo\UANTLR_runtime.lib;..\..\_deps\ucontainer-src\lib\RelWithDebInfo\UContainer_core.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/Games/102/Study/homeworks/project/lib/RelWithDebInfo/GAMES102_Project_hw6.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/Games/102/Study/homeworks/project/bin/RelWithDebInfo/GAMES102_Project_hw6.pdb</ProgramDataBaseFile>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Games\102\Study\homeworks\project\build\CMakeFiles\df48dbb58d276b30d9449bf486dab87f\DenoiseData_AutoRefl.inl.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Generating ../../../src/hw6/Components/details/DenoiseData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+..\..\..\bin\AutoRefld.exe E:/Games/102/Study/homeworks/project/src/hw6/Components/DenoiseData.h E:/Games/102/Study/homeworks/project/src/hw6/Components/details/DenoiseData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Games\102\Study\homeworks\project\bin\AutoRefld.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Games\102\Study\homeworks\project\src\hw6\Components\details\DenoiseData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Generating ../../../src/hw6/Components/details/DenoiseData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+..\..\..\bin\AutoRefl.exe E:/Games/102/Study/homeworks/project/src/hw6/Components/DenoiseData.h E:/Games/102/Study/homeworks/project/src/hw6/Components/details/DenoiseData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Games\102\Study\homeworks\project\bin\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Games\102\Study\homeworks\project\src\hw6\Components\details\DenoiseData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Generating ../../../src/hw6/Components/details/DenoiseData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+..\..\..\bin\MinSizeRel\AutoRefl.exe E:/Games/102/Study/homeworks/project/src/hw6/Components/DenoiseData.h E:/Games/102/Study/homeworks/project/src/hw6/Components/details/DenoiseData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Games\102\Study\homeworks\project\bin\MinSizeRel\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Games\102\Study\homeworks\project\src\hw6\Components\details\DenoiseData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Generating ../../../src/hw6/Components/details/DenoiseData_AutoRefl.inl</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+..\..\..\bin\RelWithDebInfo\AutoRefl.exe E:/Games/102/Study/homeworks/project/src/hw6/Components/DenoiseData.h E:/Games/102/Study/homeworks/project/src/hw6/Components/details/DenoiseData_AutoRefl.inl
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Games\102\Study\homeworks\project\bin\RelWithDebInfo\AutoRefl.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Games\102\Study\homeworks\project\src\hw6\Components\details\DenoiseData_AutoRefl.inl</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Games\102\Study\homeworks\project\src\hw6\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule E:/Games/102/Study/homeworks/project/src/hw6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+C:\Software\CMake\bin\cmake.exe -SE:/Games/102/Study/homeworks/project -BE:/Games/102/Study/homeworks/project/build --check-stamp-file E:/Games/102/Study/homeworks/project/build/src/hw6/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">E:\Games\102\Study\homeworks\project\build\src\hw6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule E:/Games/102/Study/homeworks/project/src/hw6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+C:\Software\CMake\bin\cmake.exe -SE:/Games/102/Study/homeworks/project -BE:/Games/102/Study/homeworks/project/build --check-stamp-file E:/Games/102/Study/homeworks/project/build/src/hw6/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">E:\Games\102\Study\homeworks\project\build\src\hw6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule E:/Games/102/Study/homeworks/project/src/hw6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+C:\Software\CMake\bin\cmake.exe -SE:/Games/102/Study/homeworks/project -BE:/Games/102/Study/homeworks/project/build --check-stamp-file E:/Games/102/Study/homeworks/project/build/src/hw6/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">E:\Games\102\Study\homeworks\project\build\src\hw6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule E:/Games/102/Study/homeworks/project/src/hw6/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+C:\Software\CMake\bin\cmake.exe -SE:/Games/102/Study/homeworks/project -BE:/Games/102/Study/homeworks/project/build --check-stamp-file E:/Games/102/Study/homeworks/project/build/src/hw6/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">E:\Games\102\Study\homeworks\project\build\src\hw6\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw6\Components\details\DenoiseData_AutoRefl.inl" />
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw6\Components\DenoiseData.h" />
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw6\HEMeshX.h" />
+    <ClCompile Include="E:\Games\102\Study\homeworks\project\src\hw6\Systems\DenoiseSystem.cpp" />
+    <ClInclude Include="E:\Games\102\Study\homeworks\project\src\hw6\Systems\DenoiseSystem.h" />
+    <ClCompile Include="E:\Games\102\Study\homeworks\project\src\hw6\main.cpp" />
+    <Natvis Include="E:\Games\102\Study\homeworks\project\build\_deps\ugm-src\vs\UGM.natvis">
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\ZERO_CHECK.vcxproj">
+      <Project>{074854CA-721B-33B7-BD23-15F98B20C54F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\uantlr-build\src\runtime\UANTLR_runtime.vcxproj">
+      <Project>{B8797BA4-3A94-32B6-9498-5AEA4C443C40}</Project>
+      <Name>UANTLR_runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\ucontainer-build\src\core\UContainer_core.vcxproj">
+      <Project>{EF9FADA4-59EE-363F-8BEE-4520BE85901D}</Project>
+      <Name>UContainer_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\udx12-build\src\core\UDX12_core.vcxproj">
+      <Project>{6A33F742-06CE-3B02-941B-A8566A3DDDAE}</Project>
+      <Name>UDX12_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\uecs-build\src\core\UECS_core.vcxproj">
+      <Project>{E5903D5F-8A57-3B21-AAA2-0B402D9DF05E}</Project>
+      <Name>UECS_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\ufg-build\src\core\UFG_core.vcxproj">
+      <Project>{1BF5E85B-77F4-32FD-B281-91EA6516BBFE}</Project>
+      <Name>UFG_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\ugraphviz-build\src\core\UGraphviz_core.vcxproj">
+      <Project>{5A6B9C60-90C7-357F-B444-0C2B0DCF89C5}</Project>
+      <Name>UGraphviz_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\ulua-build\src\core\ULua_core.vcxproj">
+      <Project>{555872F3-94CD-343E-A8DC-BD545989752F}</Project>
+      <Name>ULua_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\usrefl-build\src\AutoRefl\USRefl_AutoRefl.vcxproj">
+      <Project>{958FFB1A-E7DC-31A0-81A6-29C348D770A4}</Project>
+      <Name>USRefl_AutoRefl</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\App\DX12App\Utopia_App_DX12App.vcxproj">
+      <Project>{4E69F4A1-876F-3137-BCD7-7440C1D75BCF}</Project>
+      <Name>Utopia_App_DX12App</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\App\Editor\Utopia_App_Editor.vcxproj">
+      <Project>{32F53C75-9736-3D1B-8E43-41331C599EE1}</Project>
+      <Name>Utopia_App_Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\Asset\Utopia_Asset.vcxproj">
+      <Project>{1FD7CD48-B77A-3902-AA27-D4BDBA76B34A}</Project>
+      <Name>Utopia_Asset</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\Core\Utopia_Core.vcxproj">
+      <Project>{EA88AAC5-4F3C-3990-9459-2DD3D25C1303}</Project>
+      <Name>Utopia_Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\Render\Utopia_Render.vcxproj">
+      <Project>{D6EB7F21-AA99-3A18-955B-300BFFAFD982}</Project>
+      <Name>Utopia_Render</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\ScriptSystem\Utopia_ScriptSystem.vcxproj">
+      <Project>{B8DD573D-CEFF-3306-BD93-814EE82A8304}</Project>
+      <Name>Utopia_ScriptSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\_deps\crossguid\Utopia__deps_crossguid.vcxproj">
+      <Project>{6A0BEBD2-3B11-3EB0-86E3-64B8339941DD}</Project>
+      <Name>Utopia__deps_crossguid</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\_deps\imgui\Utopia__deps_imgui.vcxproj">
+      <Project>{A30FF355-76D8-30FE-A92B-50216275AB2A}</Project>
+      <Name>Utopia__deps_imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\_deps\spdlog\Utopia__deps_spdlog.vcxproj">
+      <Project>{444264AB-3193-3FD0-A9D0-0C74ACBB7316}</Project>
+      <Name>Utopia__deps_spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Games\102\Study\homeworks\project\build\_deps\utopia-build\src\_deps\tinyobjloader\Utopia__deps_tinyobjloader.vcxproj">
+      <Project>{43BE2516-0F17-324E-835B-EFC4035FD50B}</Project>
+      <Name>Utopia__deps_tinyobjloader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -5,27 +5,28 @@
 #include <USRefl/USRefl.h>
 
 template<>
-struct Ubpa::USRefl::TypeInfo<CanvasData> :
-    TypeInfoBase<CanvasData>
+struct Ubpa::USRefl::TypeInfo<CanvasData>
+    : Ubpa::USRefl::TypeInfoBase<CanvasData>
 {
-#ifdef UBPA_USREFL_NOT_USE_NAMEOF
-    static constexpr char name[11] = "CanvasData";
-#endif
     static constexpr AttrList attrs = {};
+
     static constexpr FieldList fields = {
-        Field {TSTR("points"), &Type::points},
-        Field {TSTR("scrolling"), &Type::scrolling, AttrList {
-            Attr {TSTR(UMeta::initializer), []()->Ubpa::valf2{ return { 0.f,0.f }; }},
-        }},
-        Field {TSTR("opt_enable_grid"), &Type::opt_enable_grid, AttrList {
-            Attr {TSTR(UMeta::initializer), []()->bool{ return { true }; }},
-        }},
-        Field {TSTR("opt_enable_context_menu"), &Type::opt_enable_context_menu, AttrList {
-            Attr {TSTR(UMeta::initializer), []()->bool{ return { true }; }},
-        }},
-        Field {TSTR("adding_line"), &Type::adding_line, AttrList {
-            Attr {TSTR(UMeta::initializer), []()->bool{ return { false }; }},
-        }},
+        Field{"points", &CanvasData::points},
+        Field{"scrolling", &CanvasData::scrolling},
+        Field{"opt_enable_grid", &CanvasData::opt_enable_grid},
+        Field{"opt_enable_context_menu", &CanvasData::opt_enable_context_menu},
+        Field{"adding_line", &CanvasData::adding_line},
+        Field{"enable01", &CanvasData::enable01},
+        Field{"enable02", &CanvasData::enable02},
+        Field{"enable03", &CanvasData::enable03},
+        Field{"enable04", &CanvasData::enable04},
+        Field{"highest", &CanvasData::highest},
+        Field{"coordx", &CanvasData::coordx},
+        Field{"coordy1", &CanvasData::coordy1},
+        Field{"coordy2", &CanvasData::coordy2},
+        Field{"coordy3", &CanvasData::coordy3},
+        Field{"coordy4", &CanvasData::coordy4},
+        Field{"lamda", &CanvasData::lamda},
     };
 };
 

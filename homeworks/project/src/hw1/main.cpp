@@ -18,6 +18,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, PSTR cmdLine, in
 #if defined(DEBUG) | defined(_DEBUG)
     _CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 #endif
+    
 	int rst;
     try {
         Editor app(hInstance);
@@ -25,7 +26,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE prevInstance, PSTR cmdLine, in
             return 1;
 
         auto game = app.GetGameWorld();
-        game->systemMngr.RegisterAndActivate<CanvasSystem>();
+        auto [canvasSystemIdx] = game->systemMngr.Register<CanvasSystem>();
+        game->systemMngr.Activate(canvasSystemIdx);
         game->entityMngr.cmptTraits.Register<CanvasData>();
         game->entityMngr.Create<CanvasData>();
 

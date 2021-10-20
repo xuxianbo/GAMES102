@@ -30,10 +30,10 @@ students/
 *.ppt
 *.pptx
 
-*.filters
-*.vcxproj
+# *.filters
+# *.vcxproj
 *.log
-*.sln
+# *.sln
 *.user
 *.dll
 *.lib
@@ -41,8 +41,14 @@ students/
 *.ilk
 *.pdb
 
-assets/materials/
-assets/models/
-assets/textures/
+!homeworks/project/assets
+!homeworks/project/build
+
+CMakeFiles/
+.cmake/
+
+# assets/materials/
+# assets/models/
+# assets/textures/
 
 imgui*.ini
